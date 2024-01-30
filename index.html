@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOZZAH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    width: 600%;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel-track img {
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-500%); } /* Adjust as per the number of images */
+}
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .service {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .service img {
+            width: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .special-offer {
+            background-color: #FFC0CB;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <img src="/storage/emulated/0/DCIM/Logo Maker/wozzah.jpg" alt="" style="width: 150px;height: 100px; border-radius: 50%;">
+        <h1>Welcome to Wozzah</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <img src="carousel1.jpg" alt="Carousel Image 1">
+        <img src="carousel1.jpg" alt="Carousel Image 1">
+        <img src="carousel1.jpg" alt="Carousel Image 1">
+        <img src="carousel1.jpg" alt="Carousel Image 1">
+ 
+
+      </div>
+    </div>
+            <h2>Relax and Rejuvenate with Wozzah</h2>
+            <p>Choose wozzah for unparalleled wellness. Experience the benefits of aroma therapy alongside personalized care, holistic approaches, and a commitment to your overall well-being at a better defined price. Your journey to vitality starts here.</p>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn about our mission to provide relaxation and healing through holistic therapy.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <img src="swedish.jpg" alt="Swedish Massage">
+                <h3>Swedish Massage</h3>
+                <p>Ksh.750</p>
+                <div class="special-offer">50% off in February</div>
+            </div>
+            <div class="service">
+                <img src="deeptissue.jpg" alt="Deep Tissue Massage">
+                <h3>Deep Tissue Massage</h3>
+                <p>Ksh.1000</p>
+                <div class="special-offer">50% off in February</div>
+            </div>
+            <div class="service">
+                <img src="reflexology.jpg" alt="Reflexology">
+                <h3>Reflexology</h3>
+                <p>Ksh.500</p>
+                <div class="special-offer">50% off in February</div>
+            </div>
+            <div class="service">
+                <img src="indianhead.jpg" alt="Indian Head Massage">
+                <h3>Indian Head Massage</h3>
+                <p>Ksh.500</p>
+                <div class="special-offer">50% off in February</div>
+            </div>
+            <div class="service">
+                <img src="bodyscrub.jpg" alt="Body Scrub">
+                <h3>Body Scrub</h3>
+                <p>Ksh.500</p>
+                <div class="special-offer">50% off in February</div>
+            </div>
+            <div class="service">
+                <img src="hotstone.jpg" alt="Hot Stone Massage">
+                <h3>Hot Stone Massage</h3>
+                <p>Ksh.750</p>
+                <div class="special-offer">50% off in February</div>
+            </div>
+            <div class="service">
+                <img src="steaming.jpg" alt="Steaming">
+                <h3>Steaming</h3>
+                <p>Ksh.500</p>
+                <div class="special-offer">50% off in February</div>
+            </div>
+            <div class="service">
+                <img src="aromatherapy.jpg" alt="Aromatherapy">
+                <h3>Aromatherapy</h3>
+                <p>Ksh.1000</p>
+                <div class="special-offer">50% off in February</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for appointments or any inquiries:</p>
+        <p>Direct Contact<a href="https://wa.me/254757816135"> - Whatsapp</a></p>
+        <p>Email: wozzahkenya@protonmail.com</p>
+        <p>Phone: +(254)7-578-161-35</p>
+      <p>Instagram @ <a href="https://www.instagram.com/_wozzah?igsh=d21rZGpmNzg0dTN1"> _wozzah</a></p>
+        
+    </section>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contact-form');
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const formData = new FormData(form);
+                const name = formData.get('name');
+                const email = formData.get('email');
+                const message = formData.get('message');
+
+                //
